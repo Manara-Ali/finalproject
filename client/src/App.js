@@ -7,7 +7,7 @@ export const App = function () {
   useEffect(() => {
     const getLearners = async () => {
       const res = await axios({
-        url: "https://final-project-m602.onrender.com/api/v1/learners",
+        url: "https://test-deploy-server.onrender.com/api/v1/learners",
         method: "GET",
       });
 
